@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+</head>
+<body>
+    <h1>Please enter "/guess/your_name" into address line at the end of given address and press enter.</h1>
+    <h2>Or just follow the link below</h2>
+    <a href="{{ url_for('get_blog', num=3)}}">go to blog</a>
+</body>
+<footer>
+    <p>Copyright year: {{year}}</p>
+</footer>
+</html>
